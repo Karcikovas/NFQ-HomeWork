@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+body{
+    background-color: #F3EFEF;
+    font-family: 'Titillium Web', sans-serif;
+}
+.Content{
+    margin: 15% 15%;
+}
+.HeaderSub{
+    font-size: 25px;
+    color: #395768;
+    margin-left: 25px;
+}
+
+/*** Warrning msg stuff ***/
+
+.warningMsgBody{
+    border: 8px solid white;
+    border-radius: 5px;
+    background-color:  #E6EDF2;
+    padding: 0px 15px 
+
+}
+.warningMsgBody-header{
+    font-size: 18px bold;
+    color: #395768;
+    text-decoration: none;
+
+}
+.warningMsgBody-text{
+    color: #2B2B2B;
+}
+.warningMsgBody-text a:visited{
+     color: blue;
+     text-decoration: none;
+}
+
+.wrapper{
+    margin-top: 10px;
+}
+
+.wrapper-down{
+    font-size: 15px;
+    float: right;
+}
+.linkbtn--gray{
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.linkbtn--blue{
+    color: white;
+    background-color: #23719F;
+    text-decoration: none;
+    background-color: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding: 5px 5px;
+    margin-left: 15px;
+}
+@media only screen and (max-width: 600px) {
+    .HeaderSub{
+        font-size: 12px;
+    }
+    .warningMsgBody-header{
+        font-size: 12px;
+    }
+    .warningMsgBody-text{
+        font-size: 8px;
+    }
+    .wrapper-down{
+        font-size: 8px;
+    }
+}
